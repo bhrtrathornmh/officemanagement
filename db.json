@@ -1,0 +1,54 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "admin123",
+      "role": "Admin"
+    },
+    {
+      "username": "dev",
+      "password": "dev123",
+      "role": "Developer",
+      "id": 2
+    },
+    {
+      "username": "man",
+      "password": "man123",
+      "role": "Manager",
+      "id": 3
+    }
+  ],
+  "projects": [
+    {
+      "name": "new",
+      "manager": "3",
+      "developers": [
+        2
+      ],
+      "status": "Active",
+      "id": 1
+    },
+    {
+      "name": "test1",
+      "manager": "3",
+      "developers": [
+        2
+      ],
+      "status": "Active",
+      "id": 2
+    }
+  ],
+  "tasks": [
+    {
+      "name": "newtask",
+      "description": "new",
+      "projectId": 1,
+      "developers": [
+        2
+      ],
+      "status": "DONE",
+      "id": 1
+    }
+  ]
+}
